@@ -1,0 +1,94 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* header start  */
+.menu ul li a{
+  font-size: 20px;
+  padding: 10px 0 0px !important;
+  text-align: right;
+}
+/* header end  */
+/* slider start  */
+.s-content {
+  margin-top: 25px;
+}
+.iconul li i {
+  font-size: 35px;
+}
+.cid {
+  bottom: -70px;
+}
+.single{
+  text-align: center;
+}
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  /* header start  */
+  .menu ul li a{
+    font-size: 20px;
+    padding: 10px 0 0px !important;
+    text-align: right;
+}
+/* header end  */  
+/* slider start  */
+.s-content {
+  margin-top: 55px;
+}
+.iconul li i {
+  font-size: 35px;
+}
+.features{
+  margin: 60px 0 80px;
+}
+.single{
+  margin-top: 35px;
+}
+.f-text{
+  text-align: center;
+}
+.f-text h2{
+  margin: 10px 0;
+}
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */
+    .menu ul li a{
+      padding: 15px 0 0px !important;
+      text-align: right;
+  }
+  /* header end  */
+  /* features start  */
+  .features{
+    margin: 80px 0 100px;
+}
+.single{
+  margin-top: 65px;
+}
+.f-text{
+  text-align: center;
+}
+.f-text h2{
+  margin: 10px 0;
+}
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ 
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){ 
+   
+
+
+}
+/* Extra extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width:1999.98px){ 
+   
+
+}

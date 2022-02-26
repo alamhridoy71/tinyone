@@ -1,0 +1,175 @@
+/* Fonts  */
+@font-face {
+    font-family:PTSans-Bold;
+    src: url(../fonts/PTSans-Bold.ttf);
+}
+@font-face {
+    font-family:PTSans-Regular;
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+/* Common style  */
+body{
+    font-family:PTSans-Regular;
+    font-size:16px;
+    font-weight:400;
+    color:#010101;
+}
+/* common end  */
+/* header start  */
+header{
+    padding:20px 0;
+    background-color: yellow;
+}
+.logo{
+
+}
+.ntoggle:focus{
+    box-shadow: 0 0 0 0.1rem !important;
+}
+
+.menu{
+
+}
+
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    color:#010101 !important;
+    padding: 0 37px !important;
+}
+.menu ul li a:hover{
+    color: white !important;
+}
+
+.menu ul li:last-child a{
+    padding-right:0px !important;
+}
+/* slider start  */
+.slider{
+    background-color: yellow;
+    padding-bottom: 100px;
+}
+.cid {
+    
+    bottom: -90px;
+}
+.cid [data-bs-target]{
+    
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
+    background-color: #0a0a0a !important;
+}
+.cid .active{
+    opacity: 1;
+}
+.s-content{
+    margin-top: 70px;
+}
+.s-content h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.s-content h2{
+    margin: 16px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+.s-content p{
+    margin-bottom: 35px;
+    color: #555555;
+}
+.iconul{
+
+}
+.iconul li{
+    margin-right: 30px !important;
+}
+.iconul li i{
+     font-size: 42px;
+     transition: .3s;
+}
+.iconul li i:hover{
+    transform: scale(.8);
+}
+/* slider end  */
+/* features start  */
+.features{
+    margin: 100px 0 160px;
+}
+.c-title{
+    
+
+}
+.h1{ 
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+    margin-bottom: 15px;
+}
+.p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+
+}
+.single{
+    margin-top: 65px;
+}
+.f-icon{
+
+}
+.f-icon i{
+    font-size: 50px;
+}
+.f-text{}
+.f-text h2{
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.f-text p{
+    color: #898989;
+    line-height: 25px;
+}
+
+/* social media section  */
+.social{
+    padding-top: 80px;
+    background-color:black;
+}
+.s-text{
+    
+}
+.sp-text{
+    color: yellow;
+}
+/* form  */
+.button{
+    margin-top: 23px;
+}
+
+/* icon  */
+.s-icon{
+    padding-top: 60px;
+}
+.s-icon ul li a i{
+    font-size: 42px;
+    color: #fcdb00;
+    padding-right: 20px;
+}
+
+
+/* footer start  */
+.footer{
+    padding: 60px 0 120px;
+    background-color:black;
+}
+.address p{
+    color: white;
+}
+.fs-text{
+color: white;
+
+}
